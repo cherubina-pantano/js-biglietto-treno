@@ -18,20 +18,20 @@ var age = prompt('Inserisci la tua età');
 
 var ticketPrice = numberKm * 0.21;
 
-document.getElementById('ticket-price-base').innerHTML = 'Il costo del biglietto è: ' + ticketPrice.toFixed(2);
+document.getElementById('ticket-price-base').innerHTML =  ticketPrice.toFixed(2) + '€';
 //console.log(ticketPrice);
 
 // Sconti in base all'età
 
 if (age < 18) {
   ticketPrice =  ticketPrice - (ticketPrice * 20 / 100);
-  document.getElementById('ticket-price-discount').innerHTML = 'Il tuo biglietto è scontato del 20%: ' + ticketPrice.toFixed(2);
+  document.getElementById('ticket-price-discount-20').innerHTML =  ticketPrice.toFixed(2)  + '€';
 
   //console.log(ticketPrice);
 }
 else if (age > 65) {
   ticketPrice =  ticketPrice - (ticketPrice * 40 / 100);
-  document.getElementById('ticket-price-discount').innerHTML = 'Il tuo biglietto è scontato del 40%: ' + ticketPrice.toFixed(2);
+  document.getElementById('ticket-price-discount-40').innerHTML =  ticketPrice.toFixed(2)  + '€';
 
   //console.log(ticketPrice);
 }

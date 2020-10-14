@@ -3,16 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Biglietto treno</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
+  <body >
+    <div class="container ">
+      <h1 class="text-center">Biglietto treno</h1>
 
-     <h1 >Biglietto treno</h1>
+      <h2 class="text-center"> Il costo del biglietto è:
+        <span id="ticket-price-base"></span>
+      </h2>
+      <div class="discount-20">
+        <p> <span> Hai meno di 18 anni? </span>  <br>
+          Per te abbiamo riservato uno sconto del 20% sul costo del biglietto. <br>
+          Scoprilo qui!
+        </p>
+        <h2> Il tuo biglietto scontato costa:
+          <span id="ticket-price-discount-20"></span>
+        </h2>
 
-     <h2 id="ticket-price-base"> Prezzo Biglietto</h2>
+      </div>
+      <div class="discount-40">
+        <p> <span>Hai più di 65 anni? </span> <br>
+          Per te abbiamo riservato uno sconto del 40% sul costo del biglietto. <br>
+          Scoprilo qui!
 
-     <h2 id="ticket-price-discount"></h2>
+        </p>
+        <h2> Il tuo biglietto scontato costa:
+          <span id="ticket-price-discount-40"></span>  
+        </h2>
+
+      </div>
 
 
-    <script type="text/javascript" src="./javascript/main.js"></script>
+    </div>
+
+
+
+
+     <script type="text/javascript" src="./javascript/main.js"></script>
   </body>
 </html>

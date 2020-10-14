@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+h1,
+h2
+{
+  margin: 10px 0;
+}
+
+span {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+p {
+
+}
+
+.container {
+ width: 1200px;
+ height: 500px;
+ margin: 0 auto;
+ background: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.discount-20,
+.discount-40 {
+  height: 150px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.discount-20 {
+  background: lightgrey;
+}
+
+.discount-40 {
+  background: #ccc;
+}
