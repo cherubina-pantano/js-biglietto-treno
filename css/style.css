@@ -49,3 +49,8 @@ p {
 .discount-40 {
   background: #ccc;
 }
+
+.discount-20 h2,
+.discount-40 h2 {
+  display: none;
+}
